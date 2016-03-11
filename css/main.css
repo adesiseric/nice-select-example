@@ -1,0 +1,11 @@
+.box {
+    background-color: #F6F7F9;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    padding: 24px 30px;
+}
+
+.box:before, .box:after {
+    content: "";
+    display: table;
+}

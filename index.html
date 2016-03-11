@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Nice-select</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/nice-select.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body ng-app="select">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container">
+            <h1 class="page-title">Nice-select</h1>
+
+            <div class="box">
+                <div class="row">
+                    <div class="col-xs-6 form-group">
+                        <select class="wide">
+                            <option value="1">Some option</option>
+                            <option value="2">Another option</option>
+                            <option value="3" disabled>A disabled option</option>
+                            <option value="4">Potato</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-3 form-group">
+                        <select class="wide">
+                            <option data-display="Select">Nothing</option>
+                            <option value="1">Some option</option>
+                            <option value="2">Another option</option>
+                            <option value="3" disabled>A disabled option</option>
+                            <option value="4">Potato</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.angularjs.org/1.4.5/angular.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.nice-select.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
